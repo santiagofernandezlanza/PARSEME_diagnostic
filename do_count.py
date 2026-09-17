@@ -30,7 +30,7 @@ import counter
 def main():
     # Si el usuario no ha introducido todos los parámetros
     if len(sys.argv) < 2:
-        print("Usage: python preprocess.py <corpus_folder> <language> [language --> ALL or unspecified for all languages]")
+        print("Usage: python do_count.py <corpus_folder> <language> [language --> ALL or unspecified for all languages]")
         return
     # Añade "/" al final del parámetro 1 si no la tiene
     if not sys.argv[1].endswith("/"):
