@@ -18,6 +18,8 @@ The analysis includes:
 
 When several languages are analysed simultaneously, the corresponding statistics are combined into comparative tables.
 
+The software is compatible with PARSEME 1.3 and PARSEME 2.0 corpora.
+
 ## Repository structure
 
 The repository contains three Python files:
